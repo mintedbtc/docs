@@ -18,6 +18,8 @@ You can clone the [GitHub repository](https://github.com/near/near-indexer-for-e
 - [NEAR Lake Indexer](https://docs.near.org/concepts/advanced/near-lake-framework): an indexer built on top of the indexer 
 microframework. It watches the blockchain and stores all events/data from the blockchain as **JSON files on AWS S3 or S3 compatible storage**.
 
+- [Indexer.xyz Multichain Indexer](https://indexer.xyz/): a multichain indexer that that serves up a standardized data layer for applications to build entirely on top of. It allows developers to easily query across smart contracts with an easy-to-use GraphQL interface.
+
 - [Pagoda NEAR Lake](https://docs.pagoda.co/near-lake): with this fully managed solution by [Pagoda Inc.](https://pagoda.co), you don't need to run your own NEAR Lake Nodes and AWS S3 buckets.
 
 - [The Graph](https://thegraph.com/docs/en/cookbook/near/): development tools to process blockchain events and make the resulting data easily available via a GraphQL API, known individually as a subgraph. [Graph Node](https://github.com/graphprotocol/graph-node) is able to process NEAR events, which means that NEAR developers can build subgraphs to index their smart contracts.
